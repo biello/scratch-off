@@ -313,8 +313,8 @@ function App() {
 
   const modal = (
     <div className='modal' data-visible={`${modalVisible}`} onClick={hideModal}>
-      <p>我还年轻，不想踩缝纫机</p>
-      <p>你领个红包吧👀</p>
+      <p>这只是一个刮刮乐模拟器，不能兑奖</p>
+      <p>领个红包支持一下吧👀</p>
       <img src='/qrcode.jpg' />
       <p>点击任意处关闭</p>
     </div>
